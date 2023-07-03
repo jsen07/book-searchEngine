@@ -25,7 +25,7 @@ type Book {
 
 }
 input BookInput {
-    bookId: ID!
+    bookId: String!
     description: String!
     authors: [String!]!
     image: String!
